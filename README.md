@@ -14,18 +14,16 @@ Follow these simple steps to install tbrp-specialtags:
 # Replace this in "rsg-spawn"
 
 ``
-
-RegisterNetEvent('rsg-spawn:client:setupSpawnUI', function(cData, new)
-    if new == false then
-        TriggerEvent('rsg-spawn:client:existingplayer')
-        exports.weathersync:setSyncEnabled(true)
-		TriggerEvent('tbrp-specialtags:client:playernames', source)
-    else
-        TriggerEvent('rsg-spawn:client:newplayer')
-		TriggerEvent('tbrp-specialtags:client:playernames', source)
-    end
-end)
-
+`RegisterNetEvent('rsg-spawn:client:setupSpawnUI', function(cData, new)
+`    if new == false then
+`        TriggerEvent('rsg-spawn:client:existingplayer')
+`        exports.weathersync:setSyncEnabled(true)
+`		TriggerEvent('tbrp-specialtags:client:playernames', source)
+`    else
+`        TriggerEvent('rsg-spawn:client:newplayer')
+`		TriggerEvent('tbrp-specialtags:client:playernames', source)
+`    end
+`end)
 ``
 
 # Use
