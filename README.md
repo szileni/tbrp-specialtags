@@ -2,6 +2,8 @@
 
 A script to display Special names above players head. (Based on Admin/Mod/VIP stuffs)
 
+![alt text]([http://url/to/img.png](https://media.discordapp.net/attachments/1249060557038948474/1276975300839866408/image.png?ex=66cb7b6c&is=66ca29ec&hm=063726fe321610f3c690bf1bdf8cffb48ac54bec16284ed683cbee0f2a4c5060&=&format=webp&quality=lossless))
+
 # Install
 
 Follow these simple steps to install tbrp-specialtags:
