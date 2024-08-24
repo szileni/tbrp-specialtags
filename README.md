@@ -14,6 +14,7 @@ Follow these simple steps to install tbrp-specialtags:
 # Replace this in "rsg-spawn"
 
 ``
+
 RegisterNetEvent('rsg-spawn:client:setupSpawnUI', function(cData, new)
     if new == false then
         TriggerEvent('rsg-spawn:client:existingplayer')
@@ -24,6 +25,7 @@ RegisterNetEvent('rsg-spawn:client:setupSpawnUI', function(cData, new)
 		TriggerEvent('tbrp-specialtags:client:playernames', source)
     end
 end)
+
 ``
 
 # Use
